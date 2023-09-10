@@ -1,0 +1,22 @@
+.expenses-container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 55%;
+  border-radius: 10px;
+  background-color: #130f40;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+@media screen and (max-width: 900px) {
+  .expenses-container {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .expenses-container {
+    width: 85%;
+  }
+}

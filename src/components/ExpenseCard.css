@@ -1,0 +1,51 @@
+.expense-container {
+  background-color: #30336b;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.expense-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+}
+.expense-price {
+  text-align: center;
+  font-weight: 700;
+  width: 17%;
+}
+.expense-title {
+  width: 60%;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.expense-container button {
+  background-color: #eb4d4b;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.expense-container button:hover {
+  transform: scaleY(1.1);
+  background-color: #ff7979;
+  color: black;
+}
+@media screen and (max-width: 900px) {
+  .expense-details {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .expense-price,
+  .expense-title {
+    width: 100%;
+  }
+}
