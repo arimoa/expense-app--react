@@ -1,4 +1,4 @@
-# expense-app_React.js
+# expense-app--react
 ## How to use
 1. Download it
 2. Extract it
